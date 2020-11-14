@@ -4,18 +4,18 @@ import { VictoryBar, VictoryGroup } from 'victory';
 
 import { Container, Options } from './style';
 
-
 interface Data {
-    week: number;
-    income: number;
-    costs: number;
+  week: number;
+  income: number;
+  costs: number;
 }
 
 interface ChartProps {
-    data: Array<Data>;
+  data: Array<Data>;
+  title: string;
 }
 
-const Chart: React.FC<ChartProps> = ({ data }) => {
+const Chart: React.FC<ChartProps> = ({ data, title }) => {
   const [income, setIncome] = useState(true);
   const [costs, setCosts] = useState(true);
 
@@ -29,7 +29,7 @@ const Chart: React.FC<ChartProps> = ({ data }) => {
 
   return (
     <Container>
-      <h3>NOVEMBRO</h3>
+      <h3>{title}</h3>
 
       <Options>
         <label htmlFor="income">
@@ -55,8 +55,8 @@ const Chart: React.FC<ChartProps> = ({ data }) => {
 
       <VictoryGroup
           offset={45}
-          height={200}
-          padding={{ top: 0, right: 75, bottom: 75, left: 75 }}
+          height={160}
+          padding={{ top: 16, right: 75, bottom: 16, left: 75 }}
       >
         {costs && (
           <VictoryBar 

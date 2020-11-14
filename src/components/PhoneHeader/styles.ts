@@ -9,6 +9,7 @@ export const Container = styled.div<IContainerProps>`
   color: ${props => props.fontColor};
   background: ${props => props.backgroundColor};
 
+  z-index: 1;
   position: absolute;
   top: 0;
   right: 0;
