@@ -97,7 +97,7 @@ export const Text = styled.p`
 `;
 
 export const Insights = styled.div`
-  margin-top: 16px;
+  margin-top: 8px;
   display: flex;
   gap: 25px;
 

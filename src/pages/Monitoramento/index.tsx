@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 
 import PhoneHeader from '../../components/PhoneHeader';
 import Chart from '../../components/Chart';
+import MonthPicker from '../../components/MonthPicker';
 import LampImg from '../../images/lampada.png'
 
 import { Container, Header, Wrapper, Balance, Text, Insights } from './styles';
 
 const Monitoramento: React.FC = () => {
   const [activeHeader, setActiveHeader] = useState<'monthly' | 'yearly'>('monthly');
+  const [date, setDate] = useState(new Date());
 
   const data = [
     {week: 1, income: 13000, costs: 10000},
@@ -39,8 +41,8 @@ const Monitoramento: React.FC = () => {
       </Header>
 
       <Wrapper>
-        
-
+        <MonthPicker date={date} onChange={(newDate) => setDate(newDate)}/>
+      
         <Balance>
           <div>
             <span>Receitas</span>
@@ -52,7 +54,7 @@ const Monitoramento: React.FC = () => {
           </div>
         </Balance>
 
-        <Chart data={data} title="NOVEMBRO"/>
+        <Chart data={data} date={date}/>
 
         <Text>
           Que tal ler mais sobre dicas para aumentar a receita?

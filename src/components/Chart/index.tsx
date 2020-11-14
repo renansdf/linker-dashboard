@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from 'react';
+import { format } from 'date-fns';
+import ptBR from 'date-fns/locale/pt-BR';
 
 import { VictoryBar, VictoryGroup } from 'victory';
 
@@ -12,10 +14,10 @@ interface Data {
 
 interface ChartProps {
   data: Array<Data>;
-  title: string;
+  date: Date;
 }
 
-const Chart: React.FC<ChartProps> = ({ data, title }) => {
+const Chart: React.FC<ChartProps> = ({ data, date }) => {
   const [income, setIncome] = useState(true);
   const [costs, setCosts] = useState(true);
 
@@ -29,7 +31,11 @@ const Chart: React.FC<ChartProps> = ({ data, title }) => {
 
   return (
     <Container>
-      <h3>{title}</h3>
+      <h3>
+        {format(date, 'MMMM', {
+          locale: ptBR,
+        })}
+      </h3>
 
       <Options>
         <label htmlFor="income">
