@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import { enterAnimation } from '../../styles/GlobalStyles';
 
 interface IHeaderProps {
   activeHeader: 'monthly' | 'yearly';
 }
 
 export const Container = styled.div`
+  ${enterAnimation};
   display: flex;
   flex-direction: column;
 `;

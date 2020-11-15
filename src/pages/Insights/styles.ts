@@ -1,6 +1,9 @@
 import styled from 'styled-components';
+import { enterAnimation } from '../../styles/GlobalStyles';
 
 export const Container = styled.div`
+  ${enterAnimation};
+
   width: 100%;
   overflow-y: auto;
   padding: 20px;

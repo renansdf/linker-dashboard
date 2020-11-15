@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle, css } from 'styled-components';
+import styled, { createGlobalStyle, css, keyframes } from 'styled-components';
 import iphoneTop from '../images/topo.png';
 import iphoneRight from '../images/direita.png';
 import iphoneBottom from '../images/baixo.png';
@@ -107,3 +107,33 @@ export const IphoneLeft = styled.image`
   top: -13px;
 `;
 
+const appearFromBottom = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+`;
+
+const opacityIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+export const enterAnimation = css`
+  animation: ${appearFromBottom} .7s;
+  
+  > nav{
+    animation: ${opacityIn} 1s;
+  }
+`;
