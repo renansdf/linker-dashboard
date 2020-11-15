@@ -1,6 +1,8 @@
 import styled from 'styled-components';
+import { enterAnimation } from '../../styles/GlobalStyles';
 
 export const Container = styled.div`
+  ${enterAnimation};
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -42,4 +44,16 @@ export const Container = styled.div`
   p{
     font-size: 13px;
   }
+`;
+
+export const NovaTransacao = styled.div`
+  width: 90%;
+  background: #03e85f;
+  max-width: 100%!important;
+  align-self: center!important;
+  padding: 3px 10px;
+  color: #306292;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-radius: 0 0 10px 10px;
 `;
