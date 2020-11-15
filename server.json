@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 200,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/como-alguns-empreendedores-estao-se-adaptando-a-nossa-nova-realidade/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/04/linker-solucoes_covid.jpg",
+      "title": "Como alguns empreendedores estão se adaptando a nossa nova realidade",
+      "category": "covid-19"
+    },
+    {
+      "id": 201,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/gerenciamento-de-crise-qual-a-importancia-para-a-empresa/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/04/linker-comunicacao_crise.jpg",
+      "title": "Gerenciamento de crise: como preservar a imagem da sua empresa",
+      "category": "covid-19"
+    },
+    {
+      "id": 202,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/como-alguns-empreendedores-estao-se-adaptando-a-nossa-nova-realidade-2/",
+      "imgUrl": "https://i2.wp.com/blog.linker.com.br/wp-content/uploads/2020/05/linker_realidade-covid.jpg",
+      "title": "Mais empreendedores compartilham como estão se adaptando a nossa nova realidade",
+      "category": "covid-19"
+    },
+    {
+      "id": 203,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/lgpd-saiba-os-impactos-sobre-as-contas-digitais/",
+      "imgUrl": "https://i1.wp.com/blog.linker.com.br/wp-content/uploads/2020/11/linker-blog-cofre-2.png",
+      "title": "LGPD: Saiba os impactos sobre as contas digitais",
+      "category": "Universo Linker"
+    },
+    {
+      "id": 204,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/historias-de-sucesso-camile-e-a-just-virtual-real/",
+      "imgUrl": "https://i1.wp.com/blog.linker.com.br/wp-content/uploads/2020/10/linker-blog-Just.png",
+      "title": "Histórias de Sucesso: Camile e a Just Virtual Real",
+      "category": "Universo Linker"
+    },
+    {
+      "id": 205,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/historias-de-sucesso-everton-e-a-oca-comunica/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/10/linker-blog-OCA-Comunica.png",
+      "title": "Histórias de Sucesso: Everton e a OCA Comunica",
+      "category": "Universo Linker"
+    }
+  ]
+}
