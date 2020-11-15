@@ -48,5 +48,331 @@
       "title": "Histórias de Sucesso: Everton e a OCA Comunica",
       "category": "Universo Linker"
     }
+  ],
+  "charts": [
+    {
+      "month": "January",
+      "monthlyIncome": 62750,
+      "monthlyCosts": 53000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 13000, 
+          "costs": 10000
+        },
+        {
+          "week": 2, 
+          "income": 16500, 
+          "costs": 17000
+        },
+        {
+          "week": 3, 
+          "income": 14250, 
+          "costs": 6000
+        },
+        {
+          "week": 4, 
+          "income": 19000, 
+          "costs": 20000
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "March",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "April",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "monthlyIncome": 62750,
+      "monthlyCosts": 53000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 13000, 
+          "costs": 10000
+        },
+        {
+          "week": 2, 
+          "income": 16500, 
+          "costs": 17000
+        },
+        {
+          "week": 3, 
+          "income": 14250, 
+          "costs": 6000
+        },
+        {
+          "week": 4, 
+          "income": 19000, 
+          "costs": 20000
+        }
+      ]
+    },
+    {
+      "month": "July",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "August",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "September",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "October",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 40000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "December",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    }
   ]
 }
