@@ -15,7 +15,7 @@ export const Container = styled.div<IContainerProps>`
   right: 0;
   bottom: auto;
   left: 0;
-  height: 65px;
+  height: 75px;
   width: 100%;
 
   display: flex;

@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle, css } from 'styled-components';
-import iphoneImg from '../images/iphone.png';
 import iphoneTop from '../images/topo.png';
 import iphoneRight from '../images/direita.png';
 import iphoneBottom from '../images/baixo.png';
@@ -57,10 +56,10 @@ export const Content = styled.div`
   justify-content:flex-start;
   overflow-y: auto;
   height: 100%;
-  padding-top: 80px;
-  padding-bottom: 40px;
-
-
+  padding-top: 75px;
+  padding-bottom: 9px;
+  overflow: hidden;
+  position: relative;
 `;
 
 const IphoneBase = css`
