@@ -48,7 +48,7 @@ const Monitoramento: React.FC = () => {
       setData(chartData);
     });
   }, [date]);
-  
+
   console.log(balance);
   return (
     <Container>
@@ -58,16 +58,16 @@ const Monitoramento: React.FC = () => {
       </PhoneHeader>
 
       <Header activeHeader={activeHeader}>
-        <button 
-          type="button" 
+        <button
+          type="button"
           className="monthly"
           onClick={() => setActiveHeader('monthly')}
         >
           Mensal
         </button>
 
-        <button 
-          type="button" 
+        <button
+          type="button"
           className="yearly"
           onClick={() => setActiveHeader('yearly')}
         >
@@ -76,8 +76,8 @@ const Monitoramento: React.FC = () => {
       </Header>
 
       <Wrapper>
-        <MonthPicker date={date} onChange={(newDate) => setDate(newDate)}/>
-      
+        <MonthPicker date={date} onChange={(newDate) => setDate(newDate)} />
+
         <Balance>
           <div>
             <span>Receitas</span>
@@ -89,13 +89,13 @@ const Monitoramento: React.FC = () => {
           </div>
         </Balance>
 
-        <Chart data={data} date={date}/>
+        <Chart data={data} date={date} />
 
         <Text>
-          Que tal ler mais sobre dicas para aumentar a receita?
+          Separamos algumas dicas para esse momento do seu negócio.
         </Text>
 
-        <Insights>
+        {/* <Insights>
           <div>
             <span>Como se adaptar à nova realidade?</span>
           </div>
@@ -104,11 +104,11 @@ const Monitoramento: React.FC = () => {
               5 dicas para reduzir gastos em tempos de crise
             </span>
           </div>
-        </Insights>
+        </Insights> */}
 
         <Link to="/insights">
-          <img src={LampImg} alt="Lampada"/>
-          MAIS INSIGHTS
+          <img src={LampImg} alt="Lampada" />
+          ver dicas
         </Link>
       </Wrapper>
     </Container>

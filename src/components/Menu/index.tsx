@@ -15,11 +15,11 @@ const Menu: React.FC<IMenuProps> = ({ menuBarColor }) => {
     <Container>
       <MenuIcon onClick={() => setIsOpen(!isOpen)}><FiMenu size={30} color={menuBarColor} /></MenuIcon>
       <MenuContainer open={isOpen}>
-        <Link to="/" >signin</Link>
-        <Link to="/dashboard" >início</Link>
-        <Link to="/monitoramento" >monitoramento</Link>
-        <Link to="/insights" >dicas</Link>
-        <Link to="/tag" >tag</Link>
+        <Link to="/dashboard/tag" >Início</Link>
+        <Link to="/tag" >Categorizar</Link>
+        <Link to="/monitoramento" >Monitoramento</Link>
+        <Link to="/insights" >Dicas</Link>
+        <Link to="/" >Log Out</Link>
       </MenuContainer>
     </Container>
   );

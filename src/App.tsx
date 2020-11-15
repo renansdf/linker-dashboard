@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { ToastProvider } from './hooks/toast';
 import Routes from './routes';
 import GlobalStyles, { MobileContainer, Content, IphoneTop, IphoneRight, IphoneBottom, IphoneLeft } from './styles/GlobalStyles';
 
@@ -12,7 +13,9 @@ const App: React.FC = () => {
         <IphoneBottom />
         <IphoneLeft />
         <Content>
-          <Routes />
+          <ToastProvider>
+            <Routes />
+          </ToastProvider>
         </Content>
       </MobileContainer>
 

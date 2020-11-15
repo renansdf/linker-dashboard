@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 const SignIn: React.FC = () => {
   return (
     <Container>
-      <PhoneHeader background="#316094">sign in</PhoneHeader>
+      <PhoneHeader background="#316094" />
       <img src={LinkerLogo} alt="linker logo" />
 
       <input type="text" placeholder="CPF" />
-      <Link to="/dashboard">Continuar</Link>
+      <Link to="/dashboard/s">Continuar</Link>
     </Container>
   );
 }
