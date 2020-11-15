@@ -7,6 +7,10 @@ interface IHeaderProps {
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+export const Wrapper = styled.div`
+  margin: 0 16px;
 
   a {
     height: 48px;
@@ -26,10 +30,6 @@ export const Container = styled.div`
     border-radius: 15px;
     cursor: default;
   }
-`;
-
-export const Wrapper = styled.div`
-  margin: 0 16px;
 `;
 
 export const Header = styled.div<IHeaderProps>`
