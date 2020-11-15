@@ -5,7 +5,7 @@ interface IContainerProps {
   fontColor: string;
 }
 
-export const Container = styled.div<IContainerProps>`
+export const Container = styled.nav<IContainerProps>`
   color: ${props => props.fontColor};
   background: ${props => props.backgroundColor};
 
