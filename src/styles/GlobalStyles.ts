@@ -25,6 +25,7 @@ export default createGlobalStyle`
     justify-content: center;
     width: 100%;
     height: 98vh;
+    user-select: none;
   }
 
   ::-webkit-scrollbar-thumb {

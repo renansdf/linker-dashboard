@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 16px 0;
+  margin: 16px 0 8px;
 
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -9,6 +9,7 @@ export const Container = styled.div`
   h3 {
     font-size: 18px;
     font-weight: 600;
+    text-transform: uppercase;
     color: #53575E;
 
     padding: 12px 24px 8px;
