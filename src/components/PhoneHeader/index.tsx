@@ -27,7 +27,7 @@ const PhoneHeader: React.FC<PhoneHeaderProps> = ({ background, color, children }
         <FiWifi size={14} />
         <FiBattery size={14} />
       </div>
-      <h1>{children}</h1>
+      {children}
     </Container>
   );
 }

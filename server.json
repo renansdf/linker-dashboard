@@ -1,0 +1,378 @@
+{
+  "posts": [
+    {
+      "id": 200,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/como-alguns-empreendedores-estao-se-adaptando-a-nossa-nova-realidade/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/04/linker-solucoes_covid.jpg",
+      "title": "Como alguns empreendedores estão se adaptando a nossa nova realidade",
+      "category": "covid-19"
+    },
+    {
+      "id": 201,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/gerenciamento-de-crise-qual-a-importancia-para-a-empresa/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/04/linker-comunicacao_crise.jpg",
+      "title": "Gerenciamento de crise: como preservar a imagem da sua empresa",
+      "category": "covid-19"
+    },
+    {
+      "id": 202,
+      "situation": "negative-balance",
+      "postUrl": "https://blog.linker.com.br/como-alguns-empreendedores-estao-se-adaptando-a-nossa-nova-realidade-2/",
+      "imgUrl": "https://i2.wp.com/blog.linker.com.br/wp-content/uploads/2020/05/linker_realidade-covid.jpg",
+      "title": "Mais empreendedores compartilham como estão se adaptando a nossa nova realidade",
+      "category": "covid-19"
+    },
+    {
+      "id": 203,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/lgpd-saiba-os-impactos-sobre-as-contas-digitais/",
+      "imgUrl": "https://i1.wp.com/blog.linker.com.br/wp-content/uploads/2020/11/linker-blog-cofre-2.png",
+      "title": "LGPD: Saiba os impactos sobre as contas digitais",
+      "category": "Universo Linker"
+    },
+    {
+      "id": 204,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/historias-de-sucesso-camile-e-a-just-virtual-real/",
+      "imgUrl": "https://i1.wp.com/blog.linker.com.br/wp-content/uploads/2020/10/linker-blog-Just.png",
+      "title": "Histórias de Sucesso: Camile e a Just Virtual Real",
+      "category": "Universo Linker"
+    },
+    {
+      "id": 205,
+      "situation": "positive-balance",
+      "postUrl": "https://blog.linker.com.br/historias-de-sucesso-everton-e-a-oca-comunica/",
+      "imgUrl": "https://i0.wp.com/blog.linker.com.br/wp-content/uploads/2020/10/linker-blog-OCA-Comunica.png",
+      "title": "Histórias de Sucesso: Everton e a OCA Comunica",
+      "category": "Universo Linker"
+    }
+  ],
+  "charts": [
+    {
+      "month": "January",
+      "monthlyIncome": 62750,
+      "monthlyCosts": 53000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 13000, 
+          "costs": 10000
+        },
+        {
+          "week": 2, 
+          "income": 16500, 
+          "costs": 17000
+        },
+        {
+          "week": 3, 
+          "income": 14250, 
+          "costs": 6000
+        },
+        {
+          "week": 4, 
+          "income": 19000, 
+          "costs": 20000
+        }
+      ]
+    },
+    {
+      "month": "February",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "March",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "April",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "May",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "June",
+      "monthlyIncome": 62750,
+      "monthlyCosts": 53000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 13000, 
+          "costs": 10000
+        },
+        {
+          "week": 2, 
+          "income": 16500, 
+          "costs": 17000
+        },
+        {
+          "week": 3, 
+          "income": 14250, 
+          "costs": 6000
+        },
+        {
+          "week": 4, 
+          "income": 19000, 
+          "costs": 20000
+        }
+      ]
+    },
+    {
+      "month": "July",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "August",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 49000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 19000
+        }
+      ]
+    },
+    {
+      "month": "September",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "October",
+      "monthlyIncome": 60750,
+      "monthlyCosts": 46000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 16000, 
+          "costs": 12000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 13000
+        },
+        {
+          "week": 3, 
+          "income": 15250, 
+          "costs": 7000
+        },
+        {
+          "week": 4, 
+          "income": 17000, 
+          "costs": 14000
+        }
+      ]
+    },
+    {
+      "month": "November",
+      "monthlyIncome": 54750,
+      "monthlyCosts": 40000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 12000, 
+          "costs": 11000
+        },
+        {
+          "week": 2, 
+          "income": 11500, 
+          "costs": 9000
+        },
+        {
+          "week": 3, 
+          "income": 16250, 
+          "costs": 10000
+        },
+        {
+          "week": 4, 
+          "income": 15000, 
+          "costs": 10000
+        }
+      ]
+    },
+    {
+      "month": "December",
+      "monthlyIncome": 48750,
+      "monthlyCosts": 35000,
+      "monthlyBalance" : [
+        {
+          "week": 1,
+          "income": 15000, 
+          "costs": 8000
+        },
+        {
+          "week": 2, 
+          "income": 12500, 
+          "costs": 12000
+        },
+        {
+          "week": 3, 
+          "income": 9250, 
+          "costs": 5000
+        },
+        {
+          "week": 4, 
+          "income": 12000, 
+          "costs": 10000
+        }
+      ]
+    }
+  ]
+}

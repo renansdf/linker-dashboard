@@ -1,5 +1,4 @@
-import styled, { createGlobalStyle, css } from 'styled-components';
-import iphoneImg from '../images/iphone.png';
+import styled, { createGlobalStyle, css, keyframes } from 'styled-components';
 import iphoneTop from '../images/topo.png';
 import iphoneRight from '../images/direita.png';
 import iphoneBottom from '../images/baixo.png';
@@ -25,6 +24,7 @@ export default createGlobalStyle`
     justify-content: center;
     width: 100%;
     height: 98vh;
+    user-select: none;
   }
 
   ::-webkit-scrollbar-thumb {
@@ -56,10 +56,10 @@ export const Content = styled.div`
   justify-content:flex-start;
   overflow-y: auto;
   height: 100%;
-  padding-top: 80px;
-  padding-bottom: 40px;
-
-
+  padding-top: 75px;
+  padding-bottom: 9px;
+  overflow: hidden;
+  position: relative;
 `;
 
 const IphoneBase = css`
@@ -107,3 +107,33 @@ export const IphoneLeft = styled.image`
   top: -13px;
 `;
 
+const appearFromBottom = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+`;
+
+const opacityIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+  80%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+export const enterAnimation = css`
+  animation: ${appearFromBottom} .7s;
+  
+  > nav{
+    animation: ${opacityIn} 1s;
+  }
+`;

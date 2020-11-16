@@ -5,16 +5,17 @@ interface IContainerProps {
   fontColor: string;
 }
 
-export const Container = styled.div<IContainerProps>`
+export const Container = styled.nav<IContainerProps>`
   color: ${props => props.fontColor};
   background: ${props => props.backgroundColor};
 
+  z-index: 1;
   position: absolute;
   top: 0;
   right: 0;
   bottom: auto;
   left: 0;
-  height: 65px;
+  height: 75px;
   width: 100%;
 
   display: flex;

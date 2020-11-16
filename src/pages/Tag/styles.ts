@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import { enterAnimation } from '../../styles/GlobalStyles';
 
 interface IButtonProps {
   background: string;
 }
 
 export const Container = styled.div`
+  ${enterAnimation};
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
