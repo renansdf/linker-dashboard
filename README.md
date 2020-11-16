@@ -2,6 +2,10 @@
   <img src="./.github/da$h.svg"/>
 </h1>
 
+<h1>
+  <img src="./.github/SCR1.jpeg"/>
+
+</h1>
 
 ## :computer: Projeto
 Pensando no problema que temos atualmente dos empreendedores não conseguirem ter um controle melhor de seus gastos para seu negócio crescer mais e também no cenário de como mostrar esse controle de gastos para o empreendedor, com todos os benefícios já existentes para a conta PJ da Linker e após entender o perfil de seu cliente, a **DA$H** traz o monitoramento financeiro simplificado, alinhado com conteúdos já oferecidos pelo blog da Linker para auxiliar o empreendedor com seus gastos e trazer dicas diretas do blog para ele ter uma orientação melhor para o seu negócio.
@@ -43,13 +47,9 @@ $ yarn
 $ yarn start
 ```
 
-2. For the mobile and web applications, on the specific directory(mobile or web) run the command:
+2. Você pode inicializar o mock do servidor em json-server com o comando :
 ```bash
-$ yarn start
+$ yarn json-server --port 3333 --watch server.json 
 ```
-Or
-```bash
-$ npm start
-``` 
 ---
 Developed with :yellow_heart: by Team 8!
