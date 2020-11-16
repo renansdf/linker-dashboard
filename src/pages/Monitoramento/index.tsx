@@ -10,7 +10,7 @@ import LampImg from '../../images/lampada.png'
 import formatValue from '../../utils/formatValue';
 import api from '../../services/api';
 
-import { Container, Header, Wrapper, Balance, Text, Insights } from './styles';
+import { Container, Header, Wrapper, Balance, Text } from './styles';
 import Menu from '../../components/Menu';
 
 interface IData {
@@ -94,17 +94,6 @@ const Monitoramento: React.FC = () => {
         <Text>
           Separamos algumas dicas para esse momento do seu negócio.
         </Text>
-
-        {/* <Insights>
-          <div>
-            <span>Como se adaptar à nova realidade?</span>
-          </div>
-          <div>
-            <span>
-              5 dicas para reduzir gastos em tempos de crise
-            </span>
-          </div>
-        </Insights> */}
 
         <Link to="/insights">
           <img src={LampImg} alt="Lampada" />
