@@ -42,7 +42,7 @@ $ yarn
 ---
 
 ## :zap: Running
-1. Vocè pode inicializar a aplicação React com o comando:
+1. Você pode inicializar a aplicação React com o comando:
 ```bash
 $ yarn start
 ```
