@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./.github/da$h.svg"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## :computer: Projeto
+Pensando no problema que temos atualmente dos empreendedores não conseguirem ter um controle melhor de seus gastos para seu negócio crescer mais e também no cenário de como mostrar esse controle de gastos para o empreendedor, com todos os benefícios já existentes para a conta PJ da Linker e após entender o perfil de seu cliente, a **DA$H** traz o monitoramento financeiro simplificado, alinhado com conteúdos já oferecidos pelo blog da Linker para auxiliar o empreendedor com seus gastos e trazer dicas diretas do blog para ele ter uma orientação melhor para o seu negócio.
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## :rocket: Tecnologias
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [React-Router-DOM](https://reactrouter.com/web/guides/quick-start)
+- [Axios](https://github.com/axios/axios)
+- Styled-Components
+- Json Server
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔖 Layout
+Você pode acessar o layout aqui.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- [Layout](https://www.figma.com/file/lveBqicUk223381kawXIcY/MEGAHACK---LINKER---TIME-8-(Copy)?node-id=0%3A1)
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :gear: Instalando
+1. Faça um clone deste repositório: 
+```bash
+$ git clone https://github.com/gabrielcancio/nlw-3-happy.git
+```
 
-### `yarn build`
+2. Instale as dependencias com o seguiente comando(*You need [yarn](https://yarnpkg.com/getting-started/install) instalado na sua máquina*): 
+```bash
+$ yarn
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :zap: Running
+1. Vocè pode inicializar a aḉicação React com o comando:
+```bash
+$ yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. For the mobile and web applications, on the specific directory(mobile or web) run the command:
+```bash
+$ yarn start
+```
+Or
+```bash
+$ npm start
+``` 
+---
+Developed with :yellow_heart: by Team 8!
